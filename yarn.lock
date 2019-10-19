@@ -5256,11 +5256,7 @@ fast-levenshtein@^2.0.6, fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fast-safe-stringify@^2.0.4:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.6.tgz#04b26106cc56681f51a044cfc0d76cf0008ac2c2"
-
-fast-safe-stringify@^2.0.6:
+fast-safe-stringify@^2.0.4, fast-safe-stringify@^2.0.6:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
@@ -8935,7 +8931,7 @@ mime@1.6.0, mime@^1.4.1, mime@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
 
-mime@^2.2.0, mime@^2.4.0, mime@^2.4.4:
+mime@^2.2.0, mime@^2.4.4:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.4.tgz#bd7b91135fc6b01cde3e9bae33d659b63d8857e5"
   integrity sha512-LRxmNwziLPT828z+4YkNzloCFC2YM4wrB99k+AV5ZbEyfGNWfG8SO1FUXLmLDBSo89NrJZ4DIWeLjy1CHGhMGA==
@@ -10778,7 +10774,7 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
 
-qs@^6.5.1, qs@^6.6.0, qs@^6.7.0:
+qs@^6.5.1, qs@^6.7.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.0.tgz#d1297e2a049c53119cb49cca366adbbacc80b409"
   integrity sha512-27RP4UotQORTpmNQDX8BHPukOnBP3p1uUJY5UnDhaJB+rMt9iMsok724XL+UHU23bEFOHRMQ2ZhI99qOWUMGFA==
@@ -11031,7 +11027,7 @@ react-input-message@^0.15.1:
     prop-types "^15.5.9"
     topeka "^1.0.0"
 
-react-is@^16.10.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
+react-is@^16.10.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6, react-is@^16.9.0:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
@@ -12670,20 +12666,6 @@ superagent@^3.8.3:
     mime "^1.4.1"
     qs "^6.5.1"
     readable-stream "^2.3.5"
-
-superagent@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/superagent/-/superagent-4.1.0.tgz#c465c2de41df2b8d05c165cbe403e280790cdfd5"
-  dependencies:
-    component-emitter "^1.2.0"
-    cookiejar "^2.1.2"
-    debug "^4.1.0"
-    form-data "^2.3.3"
-    formidable "^1.2.0"
-    methods "^1.1.1"
-    mime "^2.4.0"
-    qs "^6.6.0"
-    readable-stream "^3.0.6"
 
 superagent@^5.1.0:
   version "5.1.0"
