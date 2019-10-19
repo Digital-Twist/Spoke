@@ -12962,9 +12962,10 @@ window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
-winston-mongodb@^4.0.3:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/winston-mongodb/-/winston-mongodb-4.0.9.tgz#87c955777d75da12287e711dd3d2d1979eff1ea3"
+winston-mongodb@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/winston-mongodb/-/winston-mongodb-5.0.0.tgz#ac0b812d2688402e853489292c204189829052c7"
+  integrity sha512-KzckzNrKl3DBc+uyfzf+wgkN1WeaV1/KHBkJ+0azhUWyrFRrJoQea0zuhUDzF6UrJhd/Fl5VmAWtKazAqOIQ6Q==
   dependencies:
     mongodb "^3.1.13"
     winston-transport "^4.3.0"
