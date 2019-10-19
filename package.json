@@ -102,7 +102,7 @@
     "google-libphonenumber": "^3.2.6",
     "graphql": "^0.13.2",
     "graphql-date": "^1.0.3",
-    "graphql-tag": "^0.1.9",
+    "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.5",
     "graphql-type-json": "^0.3.0",
     "hot-shots": "^6.3.0",
