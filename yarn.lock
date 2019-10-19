@@ -94,10 +94,10 @@
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
 
-"@google-cloud/common@^2.1.0":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/common/-/common-2.1.2.tgz#cefab7522d652d4ee48ab4719e2fe2d6c117db4c"
-  integrity sha512-VAjWRrTEgcGujj/MgTTAtjjzeDoQqs/FDT6DG7004QFZoJsSwBmx2vGpI5TJmCuxLWvhEc0Xs5AMOvhgt7FLSw==
+"@google-cloud/common@^2.1.1":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@google-cloud/common/-/common-2.2.3.tgz#fc29701b09d7bc9d26ea6b6be119c77485210dbf"
+  integrity sha512-lvw54mGKn8VqVIy2NzAk0l5fntBFX4UwQhHk6HaqkyCQ7WBl5oz4XhzKMtMilozF/3ObPcDogqwuyEWyZ6rnQQ==
   dependencies:
     "@google-cloud/projectify" "^1.0.0"
     "@google-cloud/promisify" "^1.0.0"
@@ -105,7 +105,7 @@
     duplexify "^3.6.0"
     ent "^2.2.0"
     extend "^3.0.2"
-    google-auth-library "^5.0.0"
+    google-auth-library "^5.5.0"
     retry-request "^4.0.0"
     teeny-request "^5.2.1"
 
@@ -127,28 +127,29 @@
   resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-1.0.2.tgz#e581aa79ff71fb6074acc1cc59e3d81bf84ce07b"
   integrity sha512-7WfV4R/3YV5T30WRZW0lqmvZy9hE2/p9MvpI34WuKa2Wz62mLu5XplGTFEMK6uTbJCLWUxTcZ4J4IyClKucE5g==
 
-"@google-cloud/storage@^3.0.4":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-3.1.0.tgz#5571d82ada3bfc63d4d53577b6508d9828d50565"
-  integrity sha512-dKKcMtWpu6Haoh7ricAM+QLAeQSA+ci4AfpRXQZXk8yD0JItYhmTx59ht88cSB+9qIYrfXCnpshsvyF0PJ5N/w==
+"@google-cloud/storage@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/storage/-/storage-4.0.0.tgz#ad7df44eb7a7ce469c26d86967c444a7484cf595"
+  integrity sha512-ZhMSvIrsyULJNGuhB3vK9VKxIh92W/sOjEezaxykKewB/NxK/d09cC1AfpwHFcnxN+ZZcy1fSLAIwfNAnKU+lA==
   dependencies:
-    "@google-cloud/common" "^2.1.0"
+    "@google-cloud/common" "^2.1.1"
     "@google-cloud/paginator" "^2.0.0"
     "@google-cloud/promisify" "^1.0.0"
     arrify "^2.0.0"
     compressible "^2.0.12"
     concat-stream "^2.0.0"
-    date-and-time "^0.8.0"
+    date-and-time "^0.10.0"
     duplexify "^3.5.0"
     extend "^3.0.2"
     gaxios "^2.0.1"
-    gcs-resumable-upload "^2.0.0"
-    hash-stream-validation "^0.2.1"
+    gcs-resumable-upload "^2.2.4"
+    hash-stream-validation "^0.2.2"
     mime "^2.2.0"
     mime-types "^2.0.8"
     onetime "^5.1.0"
     p-limit "^2.2.0"
     pumpify "^2.0.0"
+    readable-stream "^3.4.0"
     snakeize "^0.1.0"
     stream-events "^1.0.1"
     through2 "^3.0.0"
@@ -3060,10 +3061,10 @@ dataloader@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-1.4.0.tgz#bca11d867f5d3f1b9ed9f737bd15970c65dff5c8"
 
-date-and-time@^0.8.0:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/date-and-time/-/date-and-time-0.8.1.tgz#cd7d03b06bc68eb16977850a3f7a5ac7c1a643d3"
-  integrity sha512-p1d0c3HE7bJK4m3/TcNx7EFZcq0Jyvl05TWeESfC5FsJQVRlUrYAL7rB7NEPogx9C3rKsOZJn9PELYo9jVT7mw==
+date-and-time@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/date-and-time/-/date-and-time-0.10.0.tgz#53825b774167b55fbdf0bbd0f17f19357df7bc70"
+  integrity sha512-IbIzxtvK80JZOVsWF6+NOjunTaoFVYxkAQoyzmflJyuRCJAJebehy48mPiCAedcGp4P7/UO3QYRWa0fe6INftg==
 
 date-now@^0.1.4:
   version "0.1.4"
@@ -4617,10 +4618,18 @@ gcp-metadata@^2.0.0:
     gaxios "^2.0.0"
     json-bigint "^0.3.0"
 
-gcs-resumable-upload@^2.0.0:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gcs-resumable-upload/-/gcs-resumable-upload-2.2.4.tgz#c81f58c456cbc6c14c71f12c51779de454d1ccad"
-  integrity sha512-UqoGRLImof+6DRv/7QnMGP3ot+RKhsIS2dVziGFe+ajFDW0cnit7xYyViFA99utDQB0RD+fSqKBkYwNXX3Y42w==
+gcp-metadata@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/gcp-metadata/-/gcp-metadata-3.2.0.tgz#27d59660f11de411d35b1edb8a41e81389cab5f6"
+  integrity sha512-ympv+yQ6k5QuWCuwQqnGEvFGS7MBKdcQdj1i188v3bW9QLFIchTGaBCEZxSQapT0jffdn1vdt8oJhB5VBWQO1Q==
+  dependencies:
+    gaxios "^2.0.1"
+    json-bigint "^0.3.0"
+
+gcs-resumable-upload@^2.2.4:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gcs-resumable-upload/-/gcs-resumable-upload-2.3.0.tgz#7d7eef01df5f45f66975ebc0c268d17d9a2c3b9c"
+  integrity sha512-PclXJiEngrVx0c4K0LfE1XOxhmOkBEy39Rrhspdn6jAbbwe4OQMZfjo7Z1LHBrh57+bNZeIN4M+BooYppCoHSg==
   dependencies:
     abort-controller "^3.0.0"
     configstore "^5.0.0"
@@ -4793,6 +4802,20 @@ google-auth-library@^5.0.0:
     jws "^3.1.5"
     lru-cache "^5.0.0"
 
+google-auth-library@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-5.5.0.tgz#72f24f484db75fa2701e8ad720a5a950e20c83d1"
+  integrity sha512-TNeraw4miu6/FhO0jDrHiJuRx3SBrAhxHSPj7+rhif43bKE34UItXX9lejKxo3E8FNytuY4LIVIvpcqMQHSYZw==
+  dependencies:
+    arrify "^2.0.0"
+    base64-js "^1.3.0"
+    fast-text-encoding "^1.0.0"
+    gaxios "^2.0.0"
+    gcp-metadata "^3.2.0"
+    gtoken "^4.1.0"
+    jws "^3.1.5"
+    lru-cache "^5.0.0"
+
 google-libphonenumber@^1.0.25:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/google-libphonenumber/-/google-libphonenumber-1.1.2.tgz#bf058975c31f7e3638333b0d630ef38dd3263b48"
@@ -4882,6 +4905,16 @@ gtoken@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/gtoken/-/gtoken-4.0.0.tgz#42b63a935a03a61eedf0ec14f74f6875bad627bd"
   integrity sha512-XaRCfHJxhj06LmnWNBzVTAr85NfAErq0W1oabkdqwbq3uL/QTB1kyvGog361Uu2FMG/8e3115sIy/97Rnd4GjQ==
+  dependencies:
+    gaxios "^2.0.0"
+    google-p12-pem "^2.0.0"
+    jws "^3.1.5"
+    mime "^2.2.0"
+
+gtoken@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/gtoken/-/gtoken-4.1.0.tgz#0b315dd1a925e3ad3c82db1eb5b9e89bae875ba8"
+  integrity sha512-wqyn2gf5buzEZN4QNmmiiW2i2JkEdZnL7Z/9p44RtZqgt4077m4khRgAYNuu8cBwHWCc6MsP6eDUn/KkF6jFIw==
   dependencies:
     gaxios "^2.0.0"
     google-p12-pem "^2.0.0"
@@ -5003,10 +5036,10 @@ hash-base@^3.0.0:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-hash-stream-validation@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hash-stream-validation/-/hash-stream-validation-0.2.1.tgz#ecc9b997b218be5bb31298628bb807869b73dcd1"
-  integrity sha1-7Mm5l7IYvluzEphii7gHhptz3NE=
+hash-stream-validation@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/hash-stream-validation/-/hash-stream-validation-0.2.2.tgz#6b34c4fce5e9fce265f1d3380900049d92a10090"
+  integrity sha512-cMlva5CxWZOrlS/cY0C+9qAzesn5srhFA8IT1VPiHc9bWWBLkJfEUIZr7MWoi89oOOGmpg8ymchaOjiArsGu5A==
   dependencies:
     through2 "^2.0.0"
 
