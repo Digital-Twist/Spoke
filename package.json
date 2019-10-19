@@ -176,7 +176,7 @@
     "mockdate": "^2.0.2",
     "nodemon": "^1.9.2",
     "prettier": "1.13.6",
-    "react-hot-loader": "^1.3.0",
+    "react-hot-loader": "^4.12.15",
     "react-scripts": "^1.1.0",
     "react-test-renderer": "15",
     "regenerator-runtime": "^0.10.5",
