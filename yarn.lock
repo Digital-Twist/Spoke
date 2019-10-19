@@ -2857,7 +2857,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1, create-react-class@^15.6.0:
+create-react-class@^15.5.1, create-react-class@^15.6.0, create-react-class@^15.6.2:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
@@ -9543,9 +9543,12 @@ react-apollo@^0.3.15:
     object-assign "^4.0.1"
     react-redux "^4.4.4"
 
-react-chartjs@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/react-chartjs/-/react-chartjs-0.7.3.tgz#9bd0364bdc245ca732e7a1028656e319ef6932c5"
+react-chartjs@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-chartjs/-/react-chartjs-1.2.0.tgz#54d0f90f3e9026666d9fcae447cd090bab65689d"
+  integrity sha512-Zhc47Jv8DwJwT3R5iyskRWoz5TEP3qloMlC758Oa+4THSxd/Qat4CIE23epY7XHzEuL5m6/hJIjD2iqLcO9rfw==
+  dependencies:
+    create-react-class "^15.6.2"
 
 react-color@^2.11.4:
   version "2.17.3"
