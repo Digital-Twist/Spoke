@@ -179,7 +179,7 @@
     "react-hot-loader": "^4.12.15",
     "react-scripts": "^1.1.0",
     "react-test-renderer": "15",
-    "regenerator-runtime": "^0.10.5",
+    "regenerator-runtime": "^0.13.3",
     "saucelabs": "^3.0.1",
     "selenium-webdriver": "^3.6.0",
     "wait-on": "^3.3.0",
