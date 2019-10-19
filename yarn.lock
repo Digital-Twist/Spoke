@@ -4525,9 +4525,10 @@ express-basic-auth@^1.1.6:
   dependencies:
     basic-auth "^2.0.1"
 
-express-winston@^3.1.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-3.2.1.tgz#95eae61620ece8dd7de976589fb823baa138dde7"
+express-winston@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-4.0.1.tgz#98c74d099b9a7fdeedc56eb839c223968bc33990"
+  integrity sha512-HQZ/d2UPuZIr/PNiLOHX+CF2Q9srfBy1GDK7yIJ+MvX6MU49ggM25XynSNmC5RRPlD2ju3Zic+mCTQtixP1gzQ==
   dependencies:
     chalk "^2.4.1"
     lodash "^4.17.10"
