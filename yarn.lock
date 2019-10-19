@@ -659,6 +659,11 @@
     "@types/koa" "*"
     graphql "^14.5.3"
 
+"@types/graphql@0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.10.2.tgz#d7c79acbaa17453b6681c80c34b38fcb10c4c08c"
+  integrity sha512-Ayw0w+kr8vYd8DToiMXjcHxXv1ljWbqX2mnLwXDxkBgog3vywGriC0JZ+npsuohKs3+E88M8OOtobo4g0X3SIA==
+
 "@types/http-assert@*":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.5.1.tgz#d775e93630c2469c2f980fc27e3143240335db3b"
@@ -1201,6 +1206,21 @@ apollo-client@^0.4.7:
     symbol-observable "^1.0.2"
     whatwg-fetch "^1.0.0"
 
+apollo-client@^1.4.0:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.9.3.tgz#37000b3c801f4571b7b089739e696a158896aeab"
+  integrity sha512-JABKKbqvcw8DJm3YUkEmyx1SK74i+/DesEtAtyocJi10LLmeMQYQFpg8W3BG1tZsYEQ3owEmPbsdNGTly+VOQg==
+  dependencies:
+    apollo-link-core "^0.5.0"
+    graphql "^0.10.0"
+    graphql-anywhere "^3.0.1"
+    graphql-tag "^2.0.0"
+    redux "^3.4.0"
+    symbol-observable "^1.0.2"
+    whatwg-fetch "^2.0.0"
+  optionalDependencies:
+    "@types/graphql" "0.10.2"
+
 apollo-datasource@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/apollo-datasource/-/apollo-datasource-0.6.3.tgz#b31e089e52adb92fabb536ab8501c502573ffe13"
@@ -1245,6 +1265,15 @@ apollo-graphql@^0.3.4:
   dependencies:
     apollo-env "^0.5.1"
     lodash.sortby "^4.7.0"
+
+apollo-link-core@^0.5.0:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/apollo-link-core/-/apollo-link-core-0.5.4.tgz#8efd4cd747959872a32f313f0ccfc2a76b396668"
+  integrity sha512-OxL0Kjizb0eS2ObldDqJEs/tFN9xI9RZuTJcaszgGy+xudoPXhIMCHMr7hGZhy0mK+U+BbBULZJw4YQU4J0ODQ==
+  dependencies:
+    graphql "^0.10.3"
+    graphql-tag "^2.4.2"
+    zen-observable-ts "^0.4.4"
 
 apollo-link@^1.2.3:
   version "1.2.13"
@@ -3760,7 +3789,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1, create-react-class@^15.6.0, create-react-class@^15.6.2:
+create-react-class@^15.6.0, create-react-class@^15.6.2:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
@@ -4536,6 +4565,21 @@ enzyme-adapter-react-15@^1.4.1:
     prop-types "^15.7.2"
     react-is "^16.10.2"
 
+enzyme-adapter-react-16@^1.0.0:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.15.1.tgz#8ad55332be7091dc53a25d7d38b3485fc2ba50d5"
+  integrity sha512-yMPxrP3vjJP+4wL/qqfkT6JAIctcwKF+zXO6utlGPgUJT2l4tzrdjMDWGd/Pp1BjHBcljhN24OzNEGRteibJhA==
+  dependencies:
+    enzyme-adapter-utils "^1.12.1"
+    enzyme-shallow-equal "^1.0.0"
+    has "^1.0.3"
+    object.assign "^4.1.0"
+    object.values "^1.1.0"
+    prop-types "^15.7.2"
+    react-is "^16.10.2"
+    react-test-renderer "^16.0.0-0"
+    semver "^5.7.0"
+
 enzyme-adapter-utils@^1.12.1:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/enzyme-adapter-utils/-/enzyme-adapter-utils-1.12.1.tgz#e828e0d038e2b1efa4b9619ce896226f85c9dd88"
@@ -4547,6 +4591,14 @@ enzyme-adapter-utils@^1.12.1:
     object.fromentries "^2.0.1"
     prop-types "^15.7.2"
     semver "^5.7.0"
+
+enzyme-shallow-equal@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/enzyme-shallow-equal/-/enzyme-shallow-equal-1.0.0.tgz#d8e4603495e6ea279038eef05a4bf4887b55dc69"
+  integrity sha512-VUf+q5o1EIv2ZaloNQQtWCJM9gpeux6vudGVH6vLmfPXFLRuxl5+Aq3U260wof9nn0b0i+P5OEUXm1vnxkRpXQ==
+  dependencies:
+    has "^1.0.3"
+    object-is "^1.0.1"
 
 enzyme@^3.3.0:
   version "3.10.0"
@@ -5995,6 +6047,11 @@ graceful-fs@^4.1.15:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
   integrity sha512-b9usnbDGnD928gJB3LrCmxoibr3VE4U2SMo5PBuBnokWyDADTqDPXg4YpwKF1trpH+UbGp7QLicO3+aWEy0+mw==
 
+graphql-anywhere@^3.0.1:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/graphql-anywhere/-/graphql-anywhere-3.1.0.tgz#3ea0d8e8646b5cee68035016a9a7557c15c21e96"
+  integrity sha1-PqDY6GRrXO5oA1AWqadVfBXCHpY=
+
 graphql-date@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/graphql-date/-/graphql-date-1.0.3.tgz#31ce05ae40ed8c8ceb040364060109771e712e91"
@@ -6021,7 +6078,7 @@ graphql-tag@^0.1.13:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-0.1.17.tgz#1dfd6f2310d395b309a1077bc8cdc5d6604c5e89"
 
-graphql-tag@^2.10.1, graphql-tag@^2.9.2:
+graphql-tag@^2.0.0, graphql-tag@^2.10.1, graphql-tag@^2.4.2, graphql-tag@^2.9.2:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
   integrity sha512-jApXqWBzNXQ8jYa/HLkZJaVw9jgwNqZkywa2zfFn16Iv1Zb7ELNHkJaXHR7Quvd5SIGsy6Ny7SUKATgnu05uEg==
@@ -6051,6 +6108,13 @@ graphql-upload@^8.0.2:
     fs-capacitor "^2.0.4"
     http-errors "^1.7.3"
     object-path "^0.11.4"
+
+graphql@^0.10.0, graphql@^0.10.3:
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.10.5.tgz#c9be17ca2bdfdbd134077ffd9bbaa48b8becd298"
+  integrity sha512-Q7cx22DiLhwHsEfUnUip1Ww/Vfx7FS0w6+iHItNuN61+XpegHSa3k5U0+6M5BcpavQImBwFiy0z3uYwY7cXMLQ==
+  dependencies:
+    iterall "^1.1.0"
 
 graphql@^0.13.2:
   version "0.13.2"
@@ -6286,11 +6350,11 @@ hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
 
-hoist-non-react-statics@^1.0.0, hoist-non-react-statics@^1.2.0:
+hoist-non-react-statics@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
-hoist-non-react-statics@^2.3.1:
+hoist-non-react-statics@^2.2.0, hoist-non-react-statics@^2.3.1:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
@@ -6712,7 +6776,7 @@ interpret@^1.0.0, interpret@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
 
-invariant@^2.0.0, invariant@^2.1.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.1.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -7316,7 +7380,7 @@ istanbul-reports@^2.2.6:
   dependencies:
     handlebars "^4.1.2"
 
-iterall@^1.1.3, iterall@^1.2.1, iterall@^1.2.2:
+iterall@^1.1.0, iterall@^1.1.3, iterall@^1.2.1, iterall@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
 
@@ -8473,7 +8537,7 @@ lodash.isboolean@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz#6c2e171db2a257cd96802fd43b01b20d5f5870f6"
 
-lodash.isequal@^4.1.1, lodash.isequal@^4.2.0, lodash.isequal@^4.5.0:
+lodash.isequal@^4.2.0, lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
@@ -8527,7 +8591,7 @@ lodash.once@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
 
-lodash.pick@^4.2.0:
+lodash.pick@^4.2.0, lodash.pick@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
 
@@ -10899,17 +10963,19 @@ react-addons-transition-group@^15.4.0:
   dependencies:
     react-transition-group "^1.2.0"
 
-react-apollo@^0.3.15:
-  version "0.3.21"
-  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-0.3.21.tgz#926134b84404f406022fc6a716e5aa75df308266"
+react-apollo@^1.4.16:
+  version "1.4.16"
+  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-1.4.16.tgz#62a623458b67a174ff8ef25f64e7b42531518e19"
+  integrity sha512-/Htq9zI/u/PpIdoH/qBU9Zty09U23biH585H52GvEF0m/kK9te9QFCnYfjKpB30DS6YleIk1uKNcqeK3HEfU6w==
   dependencies:
-    hoist-non-react-statics "^1.2.0"
+    apollo-client "^1.4.0"
+    enzyme-adapter-react-16 "^1.0.0"
+    graphql-tag "^2.0.0"
+    hoist-non-react-statics "^2.2.0"
     invariant "^2.2.1"
-    lodash.flatten "^4.2.0"
-    lodash.isequal "^4.1.1"
-    lodash.isobject "^3.0.2"
+    lodash.pick "^4.4.0"
     object-assign "^4.0.1"
-    react-redux "^4.4.4"
+    prop-types "^15.5.8"
 
 react-chartjs@^1.2.0:
   version "1.2.0"
@@ -11031,7 +11097,7 @@ react-input-message@^0.15.1:
     prop-types "^15.5.9"
     topeka "^1.0.0"
 
-react-is@^16.10.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
+react-is@^16.10.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6, react-is@^16.9.0:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
@@ -11063,17 +11129,6 @@ react-prop-types@^0.3.2:
 react-pure-render@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/react-pure-render/-/react-pure-render-1.0.2.tgz#9d8a928c7f2c37513c2d064e57b3e3c356e9fabb"
-
-react-redux@^4.4.4:
-  version "4.4.10"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-4.4.10.tgz#ad57bd1db00c2d0aa7db992b360ce63dd0b80ec5"
-  dependencies:
-    create-react-class "^15.5.1"
-    hoist-non-react-statics "^3.3.0"
-    invariant "^2.0.0"
-    lodash "^4.17.11"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
 
 react-router-redux@^4.0.5:
   version "4.0.8"
@@ -11164,6 +11219,16 @@ react-test-renderer@15:
   dependencies:
     fbjs "^0.8.9"
     object-assign "^4.1.0"
+
+react-test-renderer@^16.0.0-0:
+  version "16.10.2"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.10.2.tgz#4d8492f8678c9b43b721a7d79ed0840fdae7c518"
+  integrity sha512-k9Qzyev6cTIcIfrhgrFlYQAFxh5EEDO6ALNqYqmKsWVA7Q/rUMTay5nD3nthi6COmYsd4ghVYyi8U86aoeMqYQ==
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    react-is "^16.8.6"
+    scheduler "^0.16.2"
 
 react-transition-group@^1.2.0, react-transition-group@^1.2.1:
   version "1.2.1"
@@ -11412,7 +11477,7 @@ redux-thunk@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
 
-redux@^3.3.1, redux@^3.7.2:
+redux@^3.3.1, redux@^3.4.0, redux@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
   dependencies:
@@ -11909,6 +11974,14 @@ sax@1.2.1:
 sax@>=0.6.0, sax@^1.2.1, sax@^1.2.4, sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+
+scheduler@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.16.2.tgz#f74cd9d33eff6fc554edfb79864868e4819132c1"
+  integrity sha512-BqYVWqwz6s1wZMhjFvLfVR5WXP7ZY32M/wYPo04CcuPM7XZEbV2TBNW7Z0UkguPTl0dWMA59VbNXxK6q+pHItg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@^0.3.0:
   version "0.3.0"
@@ -13933,6 +14006,11 @@ whatwg-fetch@>=0.10.0, whatwg-fetch@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-1.1.1.tgz#ac3c9d39f320c6dce5339969d054ef43dd333319"
 
+whatwg-fetch@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+  integrity sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
+
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
@@ -14326,6 +14404,11 @@ yup@^0.27.0:
     property-expr "^1.5.0"
     synchronous-promise "^2.0.6"
     toposort "^2.0.2"
+
+zen-observable-ts@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/zen-observable-ts/-/zen-observable-ts-0.4.4.tgz#c244c71eaebef79a985ccf9895bc90307a6e9712"
+  integrity sha512-SNVY1sWWhoe7FwFmHpD9ERi+7Mhhj3+JdS0BGy2UxLIg7cY+3zQbyZauQCI6DN6YK4uoKNaIm3S7Qkqi1Lr+Fw==
 
 zen-observable-ts@^0.8.20:
   version "0.8.20"
