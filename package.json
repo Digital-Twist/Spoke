@@ -173,7 +173,7 @@
     "jest": "^24.9.0",
     "jest-each": "^24.8.0",
     "json2csv": "^3.6.2",
-    "mockdate": "^2.0.2",
+    "mockdate": "^2.0.5",
     "nodemon": "^1.19.4",
     "prettier": "1.13.6",
     "react-hot-loader": "^4.12.15",
