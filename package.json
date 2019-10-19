@@ -69,7 +69,7 @@
   "dependencies": {
     "@aoberoi/passport-slack": "^1.0.5",
     "@google-cloud/storage": "^4.0.0",
-    "aphrodite": "^0.4.1",
+    "aphrodite": "^2.4.0",
     "apollo-client": "^0.4.7",
     "apollo-server-express": "^2.9.6",
     "assemble-numbers-client": "^1.2.0",
