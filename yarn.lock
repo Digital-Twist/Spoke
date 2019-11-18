@@ -14298,10 +14298,10 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-timezonecomplete@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/timezonecomplete/-/timezonecomplete-5.9.0.tgz#5abde0e2b9e4e5dc5f923ca310858881653295af"
-  integrity sha512-J+ERzc+CaRXHMoMM9/F8odgN1ezeuFqW7yhYIEqdczV8ez/pQ4WEzK4bpDlb1HXu13Oj492JQoy8GoDm5gpzMQ==
+timezonecomplete@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/timezonecomplete/-/timezonecomplete-5.10.0.tgz#ce07bbedf2d03794da8a84caaa96b9eb9378bff5"
+  integrity sha512-fkxKHKrnGsem01puvTmUe0oHrTgW4LuWPZpqWdw467n5j/TGd0mKf212KS+aI/bGWBg3BaVk/VyDpen7TCXoPQ==
   dependencies:
     tzdata "^1.0.11"
 
