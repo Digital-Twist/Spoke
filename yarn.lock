@@ -10044,10 +10044,10 @@ netmask@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
 
-nexmo@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/nexmo/-/nexmo-2.5.1.tgz#b0f8dcdff6782b8d8ada4202cc1d9cf8c25c72f4"
-  integrity sha512-TkZZPx76ERV26RSNqUGplMmhTwmnEN6EpeEmWiy/QgNoVoE/F4kFeEUzv9wlGmgs3GRMjHE7Z7wYTF6MPpcmTQ==
+nexmo@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/nexmo/-/nexmo-2.5.2.tgz#d5ff9b64a4b3e9b54d76e52499a788f36c371398"
+  integrity sha512-nxlTAh/XgRWnRhfPN+AQeM6vSOU+RLJIMass38heY0ertcrkTLW1Wo73ASx4ycqsWIE6J3EP4SO0OZRtNFgaxA==
   dependencies:
     jsonwebtoken "^8.4.0"
     request "^2.88.0"
