@@ -118,7 +118,7 @@
     "material-ui-datatables": "^0.18.2",
     "moment": "^2.14.1",
     "moment-timezone": "^0.5.27",
-    "nexmo": "^2.5.1",
+    "nexmo": "^2.5.3",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.3.1",
     "papaparse": "^5.1.0",
