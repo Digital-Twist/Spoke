@@ -3952,10 +3952,10 @@ camel-case@3.0.x, camel-case@^3.0.0:
     no-case "^2.2.0"
     upper-case "^1.1.1"
 
-camelcase-keys@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-6.1.0.tgz#3ca09b3cae196a58e291a6913ce97ffc8f8ae850"
-  integrity sha512-43tBGDIs3SBDA5R5mYzkiBP3lt2IKhLDp1wVGS9XTq6SR3+7ZNdi/VwBJsk4NKgySoaziTrKM+N8hhT04NBVUA==
+camelcase-keys@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-6.2.0.tgz#07302c9a9b78ffda16169e4cee18ed104aa4e8ea"
+  integrity sha512-bwHzjmUuw92j16zHWIV1YjpDk9S4sq/gB0x4upHcNrdV/U5RU0NCg3bxo6Ymu0+kjhT5L0KTfqCMaMkP2RrXnQ==
   dependencies:
     camelcase "^5.3.1"
     map-obj "^4.0.0"
