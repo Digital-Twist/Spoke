@@ -70,7 +70,7 @@
     "@aoberoi/passport-slack": "^1.0.5",
     "@google-cloud/storage": "^4.0.0",
     "aphrodite": "^2.4.0",
-    "apollo-client": "^2.6.4",
+    "apollo-client": "^2.6.9",
     "apollo-server-express": "^2.9.6",
     "assemble-numbers-client": "^1.2.0",
     "auth0-js": "^9.11.3",
