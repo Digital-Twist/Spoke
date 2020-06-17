@@ -4463,13 +4463,12 @@ confusing-browser-globals@^1.0.9:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.9.tgz#72bc13b483c0276801681871d4898516f8f54fdd"
   integrity sha512-KbS1Y0jMtyPgIxjO7ZzMAuUpAKMt1SzCL9fsrKsX6b0zJPTaT0SiSPmewwVZg9UAO83HVIlEhZF84LIjZ0lmAw==
 
-connect-datadog-graphql@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/connect-datadog-graphql/-/connect-datadog-graphql-0.0.11.tgz#10043e0079c4b5f3cc369ce82b586a38b9dff3f2"
-  integrity sha512-NXowBZkLeCkdnUYUeQM5YpEQW74Kg57vcPjHAd9tfeM9/Taf6paNfkpOO1im3wxnBk+MDyVobgI1vLDzu0ncuw==
+connect-datadog-graphql@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/connect-datadog-graphql/-/connect-datadog-graphql-0.0.12.tgz#5ef119001a4a7f2423bc581c0550dd9894da4fec"
+  integrity sha512-MAlyHVIHgD1LsnDNYw9iAwXFv83jm/2y2Nz1jrACFb2O7CSvwBZ54z8Nv1wzKWiUXP5+sNvunGnKvYbEysAOcw==
   dependencies:
-    graphql "^14.4.2"
-    hot-shots "^6.3.0"
+    graphql "^15.1.0"
 
 connect-history-api-fallback@^1.3.0, connect-history-api-fallback@^1.6.0:
   version "1.6.0"
@@ -7169,12 +7168,17 @@ graphql@^0.10.0, graphql@^0.10.3:
   dependencies:
     iterall "^1.1.0"
 
-graphql@^14.4.2, graphql@^14.5.3, graphql@^14.5.8:
+graphql@^14.5.3, graphql@^14.5.8:
   version "14.5.8"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.5.8.tgz#504f3d3114cb9a0a3f359bbbcf38d9e5bf6a6b3c"
   integrity sha512-MMwmi0zlVLQKLdGiMfWkgQD7dY/TUKt4L+zgJ/aR0Howebod3aNgP5JkgvAULiR2HPVZaP2VEElqtdidHweLkg==
   dependencies:
     iterall "^1.2.2"
+
+graphql@^15.1.0:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.1.0.tgz#b93e28de805294ec08e1630d901db550cb8960a1"
+  integrity sha512-0TVyfOlCGhv/DBczQkJmwXOK6fjWkjzY3Pt7wY8i0gcYXq8aogG3weCsg48m72lywKSeOqedEHvVPOvZvSD51Q==
 
 growly@^1.3.0:
   version "1.3.0"
@@ -7412,7 +7416,7 @@ hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
 
-hot-shots@^6.3.0, hot-shots@^6.8.1:
+hot-shots@^6.8.1:
   version "6.8.1"
   resolved "https://registry.yarnpkg.com/hot-shots/-/hot-shots-6.8.1.tgz#2816e9b33d625cafd8c732bf322a29ebd36d024e"
   integrity sha512-VzDZDnT9nAOMacQP1XNqLaHOJ4Y70AFe1ivX0Dw+9cErznfrQXOeJUyk6HqwSm2eZKckFYZ4d5OAMKlfCU14aQ==
