@@ -126,7 +126,7 @@
     "passport-auth0": "^1.2.1",
     "passport-local": "^1.0.0",
     "passport-local-authenticate": "^1.2.0",
-    "pg": "^7.12.1",
+    "pg": "^8.3.3",
     "prop-types": "^15.6.0",
     "react": "^15.6.1",
     "react-apollo": "^1.4.16",
