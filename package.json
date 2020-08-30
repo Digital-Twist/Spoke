@@ -144,7 +144,7 @@
     "request": "^2.81.0",
     "rethink-knex-adapter": "^0.4.17",
     "slack": "^11.0.2",
-    "superagent": "^5.1.0",
+    "superagent": "^6.1.0",
     "thinky": "^2.3.3",
     "timezonecomplete": "^5.9.0",
     "twilio": "^2.11.0",
