@@ -105,7 +105,7 @@
     "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.5",
     "graphql-type-json": "^0.3.0",
-    "hot-shots": "^6.8.1",
+    "hot-shots": "^8.0.0",
     "humps": "^2.0.1",
     "is-url": "^1.2.2",
     "isomorphic-fetch": "^2.2.1",
