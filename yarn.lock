@@ -2474,10 +2474,10 @@ asn1@~0.2.3:
   dependencies:
     safer-buffer "~2.1.0"
 
-assemble-numbers-client@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/assemble-numbers-client/-/assemble-numbers-client-1.2.0.tgz#e74b07164fa5e2e4166339ae3d78df41fc006b44"
-  integrity sha512-XzVUFVaaalfMOFlznXkmIQs/oE5+qlIijZvYvqGeMip1P8mpkGXiSBUi8DvBFTDSlbnuH3xkl5h8BzWyc+ldmA==
+assemble-numbers-client@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/assemble-numbers-client/-/assemble-numbers-client-1.2.3.tgz#51e0b8abd6d98c9524c593a7be2a537c32e13862"
+  integrity sha512-mADPzZkF2CGrGxEUmQvdnhCTcbj6VZMWQoapd1lkggqP6RWVaZT5xlmfkRQEWPwxyv3wnJZNDUJH7rXp9LyehA==
   dependencies:
     lodash "^4.17.14"
     sha.js "^2.4.11"
