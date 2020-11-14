@@ -117,7 +117,7 @@
     "material-ui-color-picker": "^1.0.1",
     "material-ui-datatables": "^0.18.2",
     "moment": "^2.14.1",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.32",
     "nexmo": "^2.5.1",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.3.1",
