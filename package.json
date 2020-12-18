@@ -72,7 +72,7 @@
     "aphrodite": "^2.4.0",
     "apollo-client": "^2.6.4",
     "apollo-server-express": "^2.9.6",
-    "assemble-numbers-client": "^1.2.0",
+    "assemble-numbers-client": "^1.2.4",
     "auth0-js": "^9.11.3",
     "aws-sdk": "^2.553.0",
     "aws-serverless-express": "https://registry.npmjs.org/aws-serverless-express/-/aws-serverless-express-3.0.2.tgz",
