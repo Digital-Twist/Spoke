@@ -183,6 +183,6 @@
     "saucelabs": "^3.0.1",
     "selenium-webdriver": "^3.6.0",
     "wait-on": "^3.3.0",
-    "webpack-dev-server": "^3.8.2"
+    "webpack-dev-server": "^3.11.2"
   }
 }
