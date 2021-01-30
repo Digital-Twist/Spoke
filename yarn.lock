@@ -5341,7 +5341,7 @@ dotenv-expand@5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
-dotenv@6.2.0, dotenv@^6.2.0:
+dotenv@6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
   integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
@@ -5491,15 +5491,10 @@ env-variable@0.0.x:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/env-variable/-/env-variable-0.0.5.tgz#913dd830bef11e96a039c038d4130604eba37f88"
 
-envalid@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/envalid/-/envalid-5.0.0.tgz#0dff9302c645977b8a620278620c67a939c9ee6f"
-  integrity sha512-cLyEXc/9meYtQ+KcTsh2S8GGvQ/ZGqlUyFfQrTZqVKy3/o/CQ6waLtgf6X7QmFbW0qAFAptQ8r17LYqKTxHIgw==
-  dependencies:
-    chalk "^2.4.1"
-    dotenv "^6.2.0"
-    meant "^1.0.1"
-    validator "^10.11.0"
+envalid@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/envalid/-/envalid-7.0.0.tgz#46c43d586b56180b2523d21aad08108a51c52f1a"
+  integrity sha512-uyHMNJqxr44ILkK4SEPJ+cPZ5e+xyj6wP0zvJulXg5r6ITGbyfri8AUlJ6nwD3W8/6fIzvheybkSqiW2sRi3GQ==
 
 enzyme-adapter-react-15@^1.4.1:
   version "1.4.1"
@@ -9650,11 +9645,6 @@ mdn-data@~1.1.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.4.tgz#50b5d4ffc4575276573c4eedb8780812a8419f01"
   integrity sha512-FSYbp3lyKjyj3E7fMl6rYvUdX0FBXaluGqlFoYESWQlyUTq8R+wp0rkFxoYFqZlHCvsUXGjyJmLQSnXToYhOSA==
-
-meant@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/meant/-/meant-1.0.1.tgz#66044fea2f23230ec806fb515efea29c44d2115d"
-  integrity sha512-UakVLFjKkbbUwNWJ2frVLnnAtbb7D7DsloxRd3s/gDpI8rdv8W5Hp3NaDb+POBI1fQdeussER6NB8vpcRURvlg==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -14953,11 +14943,6 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
-
-validator@^10.11.0:
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-10.11.0.tgz#003108ea6e9a9874d31ccc9e5006856ccd76b228"
-  integrity sha512-X/p3UZerAIsbBfN/IwahhYaBbY68EN/UQBWHtsbXGT5bfrH/p4NQzUCG1kF/rtKaNpnJ7jAu6NGTdSNtyNIXMw==
 
 validator@~3.34.0:
   version "3.34.0"
