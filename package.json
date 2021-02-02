@@ -146,7 +146,7 @@
     "slack": "^11.0.2",
     "superagent": "^5.1.0",
     "thinky": "^2.3.3",
-    "timezonecomplete": "^5.9.0",
+    "timezonecomplete": "^5.11.4",
     "twilio": "^2.11.0",
     "uuid": "^3.1.0",
     "webpack": "^4.41.2",

@@ -14298,12 +14298,10 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-timezonecomplete@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/timezonecomplete/-/timezonecomplete-5.9.0.tgz#5abde0e2b9e4e5dc5f923ca310858881653295af"
-  integrity sha512-J+ERzc+CaRXHMoMM9/F8odgN1ezeuFqW7yhYIEqdczV8ez/pQ4WEzK4bpDlb1HXu13Oj492JQoy8GoDm5gpzMQ==
-  dependencies:
-    tzdata "^1.0.11"
+timezonecomplete@^5.11.4:
+  version "5.11.4"
+  resolved "https://registry.yarnpkg.com/timezonecomplete/-/timezonecomplete-5.11.4.tgz#13f0269efbbb85eddf0b2aa90204815cc6910693"
+  integrity sha512-pGpke9xWswDoDCK5dukphSyrj/KfWmh1Ldoa9xtT+jZ4pNskeMKt5CqQxaf7zrRyj0uAoHVcv9ApdRcF3o+/lg==
 
 timsort@^0.3.0:
   version "0.3.0"
@@ -14577,10 +14575,6 @@ typedarray@^0.0.6:
 tz-offset@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/tz-offset/-/tz-offset-0.0.1.tgz#fef920257024d3583ed9072a767721a18bdb8a76"
-
-tzdata@^1.0.11:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/tzdata/-/tzdata-1.0.17.tgz#08bb42ffd25ff5506f14cd18a3259868ad79f0e5"
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
