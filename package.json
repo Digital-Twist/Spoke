@@ -152,7 +152,7 @@
     "webpack": "^4.41.2",
     "webpack-manifest-plugin": "^2.2.0",
     "winston": "^3.2.1",
-    "winston-mongodb": "^5.0.0",
+    "winston-mongodb": "^5.0.7",
     "yup": "^0.27.0",
     "zipcode-to-timezone": "0.0.9"
   },
