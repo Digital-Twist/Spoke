@@ -128,7 +128,7 @@
     "passport-local-authenticate": "^1.2.0",
     "pg": "^7.12.1",
     "prop-types": "^15.6.0",
-    "react": "^15.6.1",
+    "react": "^17.0.1",
     "react-apollo": "^1.4.16",
     "react-chartjs": "^1.2.0",
     "react-dom": "^15.6.1",
