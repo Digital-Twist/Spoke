@@ -131,7 +131,7 @@
     "react": "^15.6.1",
     "react-apollo": "^1.4.16",
     "react-chartjs": "^1.2.0",
-    "react-dom": "^15.6.1",
+    "react-dom": "^17.0.1",
     "react-formal": "^0.25.4",
     "react-markdown": "^4.2.2",
     "react-router": "^5.1.2",
