@@ -178,7 +178,7 @@
     "prettier": "1.18.2",
     "react-hot-loader": "^4.12.15",
     "react-scripts": "^3.2.0",
-    "react-test-renderer": "15",
+    "react-test-renderer": "17",
     "regenerator-runtime": "^0.13.3",
     "saucelabs": "^3.0.1",
     "selenium-webdriver": "^3.6.0",
