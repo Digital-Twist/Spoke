@@ -171,7 +171,7 @@
     "fakeredis": "^2.0.0",
     "foreman": "^3.0.1",
     "jest": "^24.9.0",
-    "jest-each": "^24.9.0",
+    "jest-each": "^27.0.6",
     "json2csv": "^4.5.4",
     "mockdate": "^2.0.5",
     "nodemon": "^1.19.4",
